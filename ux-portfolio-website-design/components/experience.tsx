@@ -34,9 +34,15 @@ const professionalExperience = [
   },
   {
     role: 'Veranstaltungstechniker',
-    company: 'Contzept GmbH & Hansa Park',
-    period: 'Aug 2014 – Jan 2019',
-    description: 'Ausbildung und anschließende Vollzeit-Festanstellung.',
+    company: 'Hansa Park',
+    period: 'Aug 2017 – Jan 2019',
+    description: 'Vollzeit-Festanstellung.',
+  },
+  {
+    role: 'Veranstaltungstechniker',
+    company: 'Contzept GmbH',
+    period: 'Aug 2014 – Jun 2017',
+    description: 'Berufsausbildung.',
   },
 ]
 
@@ -58,7 +64,7 @@ export function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-6xl scroll-mt-16 px-6 py-24 md:px-10 md:py-32">
       <div className="grid gap-10 md:grid-cols-[minmax(0,0.85fr)_minmax(0,1.5fr)] md:items-start md:gap-16 lg:gap-20">
-        <Reveal className="md:pt-9">
+        <Reveal>
           <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Experience</p>
           <h2 className="mt-4 text-4xl font-medium tracking-tight text-balance md:text-5xl">Werdegang.</h2>
         </Reveal>

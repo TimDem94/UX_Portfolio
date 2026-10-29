@@ -60,7 +60,7 @@ export function About() {
             as="li"
             key={step.title}
             delay={index * 100}
-            className="border-b border-border py-10 sm:px-6 sm:odd:pl-0 lg:border-b-0 lg:px-6 lg:first:pl-0 lg:[&:not(:last-child)]:border-r"
+            className="border-b border-border py-10 sm:px-6 sm:odd:pl-0 lg:border-b-0 lg:px-6 lg:odd:pl-6 lg:first:pl-0 lg:[&:not(:last-child)]:border-r"
           >
             <span className="font-mono text-xs text-muted-foreground">{step.number}</span>
             <h3 className="mt-6 text-2xl font-medium tracking-tight">{step.title}</h3>
