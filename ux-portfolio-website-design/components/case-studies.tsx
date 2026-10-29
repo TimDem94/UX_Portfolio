@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
 import { projects } from '@/lib/case-studies'
+import { withBasePath } from '@/lib/site-path'
 
 export function CaseStudies() {
   return (
@@ -36,7 +37,7 @@ function ProjectCard({ project }: { project: (typeof projects)[number] }) {
         className="group relative block aspect-[4/3] overflow-hidden rounded-3xl bg-card focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-4 focus-visible:ring-offset-background focus-visible:outline-none"
       >
         <Image
-          src={project.image || '/placeholder.svg'}
+          src={withBasePath(project.image || '/placeholder.svg')}
           alt=""
           fill
           sizes="(min-width: 768px) 50vw, 100vw"

@@ -7,6 +7,7 @@ import { SiteFooter } from '@/components/site-footer'
 import { Reveal } from '@/components/reveal'
 import { notFound } from 'next/navigation'
 import { projects } from '@/lib/case-studies'
+import { withBasePath } from '@/lib/site-path'
 
 export function generateStaticParams() {
   return projects.map((project) => ({ slug: project.slug }))
@@ -101,7 +102,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
               <div className="absolute inset-0 bg-gradient-to-br from-primary/6 via-transparent to-primary/8" aria-hidden="true" />
               <div className="relative aspect-[16/10] overflow-hidden rounded-[1.5rem] border border-border/80 bg-background">
                 <Image
-                  src={project.image}
+                  src={withBasePath(project.image)}
                   alt={`${project.title} Mockup`}
                   fill
                   sizes="(min-width: 1024px) 1200px, 100vw"
@@ -130,10 +131,10 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                     loop
                     playsInline
                     preload="auto"
-                    poster={project.image}
+                    poster={withBasePath(project.image)}
                     aria-label={`${project.title} Produktvideo`}
                   >
-                    <source src={project.video} type="video/mp4" />
+                    <source src={withBasePath(project.video)} type="video/mp4" />
                     Dein Browser unterstützt die Videowiedergabe nicht.
                   </video>
                 </div>

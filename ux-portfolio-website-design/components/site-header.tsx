@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { ThemeToggle } from '@/components/theme-toggle'
+import { withBasePath } from '@/lib/site-path'
 
 const links = [
   { href: '#work', label: 'Case Studies' },
@@ -14,9 +15,9 @@ export function SiteHeader({ isCaseStudy = false }: { isCaseStudy?: boolean }) {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 md:px-10">
-        <a href={isCaseStudy ? '/' : '#top'} className="inline-flex items-center">
+        <a href={isCaseStudy ? withBasePath('/') : '#top'} className="inline-flex items-center">
           <Image
-            src="/projects/New-icon_noBG.png"
+            src={withBasePath('/projects/New-icon_noBG.png')}
             alt="Tim Demesmaeker"
             width={899}
             height={511}

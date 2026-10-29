@@ -1,5 +1,6 @@
 import { ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
+import { withBasePath } from '@/lib/site-path'
 
 const EMAIL = 'hallo@timdemesmaeker.de'
 
@@ -33,7 +34,7 @@ export function SiteFooter() {
             preload="auto"
             aria-label="Logo-Animation"
           >
-            <source src="/projects/LogoEffekt.mp4" type="video/mp4" />
+            <source src={withBasePath('/projects/LogoEffekt.mp4')} type="video/mp4" />
             Dein Browser unterstützt die Videowiedergabe nicht.
           </video>
         </div>
