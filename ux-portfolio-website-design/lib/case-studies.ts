@@ -57,11 +57,11 @@ export const projects: CaseStudy[] = [
     summary:
       'Ein langfristiges, abteilungsübergreifendes Engagement für ein großes Luftfahrt-Wartungsunternehmen in Hamburg. Aus Gründen der Vertraulichkeit sind Namen, konkrete Oberflächen und interne Abläufe abstrahiert.',
     problem:
-      'Unterschiedliche Teams arbeiten mit sehr verschiedenen Anforderungen: Kaufmännische Abteilungen wie Sales, Controlling und Key Account Management benötigen passende digitale Werkzeuge. Mechaniker:innen wiederum brauchen eine praktikable Lösung auf dem iPad, um papierbasierte Arbeitsschritte im Arbeitsalltag zu reduzieren.',
+      'Unterschiedliche Teams arbeiten mit sehr verschiedenen Anforderungen: Kaufmännische Abteilungen wie Sales, Controlling und Key Account Management benötigen passende digitale Werkzeuge. Mechaniker:innen wiederum brauchen eine praktikable Lösung auf dem Tablet, um papierbasierte Arbeitsschritte im Arbeitsalltag zu reduzieren.',
     process:
       'Seit 2024 durchlaufe ich verschiedene Abteilungen, mache Anforderungen und Arbeitsabläufe in Gesprächen und Workshops greifbar und übersetze sie in verständliche, testbare Interaktionskonzepte. Prototypen entstehen dabei nicht mehr nur in Figma: Mithilfe von KI erstelle ich schnell klickbare Prototypen, die ich in weiteren Nutzerinterviews früh erprobe. So führen konkrete Abläufe zu tieferen Insights und bilden die Grundlage für die nächste Iteration. Die Entwürfe begleite ich agil in Scrum-Sprints gemeinsam mit den Entwickler:innen des Unternehmens – vom ersten Flow bis zur umsetzbaren Oberfläche.',
     solution:
-      'Statt einer Einheitslösung entstehen auf den jeweiligen Arbeitskontext zugeschnittene interne Anwendungen: strukturierte digitale Abläufe für kaufmännische Teams und eine iPad-orientierte Oberfläche für den Einsatz in der Mechanik. Die hier gezeigten Visualisierungen sind eigens erstellte, illustrative Darstellungen – keine Originalscreenshots oder vertraulichen Projektdaten.',
+      'Statt einer Einheitslösung entstehen auf den jeweiligen Arbeitskontext zugeschnittene in einander verzahnte Anwendungen: strukturierte digitale Abläufe für kaufmännische Teams und eine Tablet-orientierte Oberfläche für den Einsatz in der Mechanik. Die hier gezeigten Visualisierungen sind eigens erstellte, illustrative Darstellungen – keine Originalscreenshots oder vertraulichen Projektdaten.',
     visuals: [
       {
         image: '/projects/aviation-workshop.svg',
@@ -69,14 +69,9 @@ export const projects: CaseStudy[] = [
         caption: '01 / Verstehen — Arbeitsabläufe gemeinsam sichtbar machen',
       },
       {
-        image: '/projects/aviation-workflow.svg',
-        alt: 'Illustrative Desktop-Oberfläche mit neutralen Karten und einer klaren Aufgabenübersicht',
-        caption: '02 / Strukturieren — komplexe Informationen in klare Abläufe übersetzen',
-      },
-      {
         image: '/projects/aviation-tablet.svg',
         alt: 'Abstrahierter iPad-Prototyp mit digitalen Arbeitsschritten und Checkliste für den Werkstattalltag',
-        caption: '03 / Erproben — digitale Checklisten für den Einsatz am iPad',
+        caption: '02 / Erproben — digitale Checklisten für den Einsatz am Tablet',
       },
     ],
   },

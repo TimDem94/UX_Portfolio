@@ -55,7 +55,7 @@ export function Hero() {
           height={2400}
           priority
           sizes="(min-width: 1024px) 40vw, 80vw"
-          className="relative h-full w-auto max-w-full object-contain object-bottom"
+          className="hero-portrait relative h-full w-auto max-w-full object-contain object-bottom"
         />
       </Reveal>
     </section>
