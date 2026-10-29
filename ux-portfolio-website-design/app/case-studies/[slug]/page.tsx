@@ -103,7 +103,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
               <div className="relative aspect-[16/10] overflow-hidden rounded-[1.5rem] border border-border/80 bg-background">
                 <Image
                   src={withBasePath(project.image)}
-                  alt={`${project.title} Mockup`}
+                  alt={`${project.title} — Projektvisualisierung`}
                   fill
                   sizes="(min-width: 1024px) 1200px, 100vw"
                   className="object-cover"
@@ -119,10 +119,33 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
             </article>
           </Reveal>
 
-          <Reveal delay={240}>
-            <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card p-4 md:p-6">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/6 via-transparent to-primary/8" aria-hidden="true" />
-              {project.video ? (
+          {project.visuals && (
+            <section aria-label="Projektvisualisierungen" className="grid gap-8">
+              {project.visuals.map((visual, index) => (
+                <Reveal key={visual.image} delay={index * 80}>
+                  <figure className="overflow-hidden rounded-[2rem] border border-border bg-card p-3 md:p-5">
+                    <div className="relative aspect-[16/10] overflow-hidden rounded-[1.4rem] bg-background">
+                      <Image
+                        src={withBasePath(visual.image)}
+                        alt={visual.alt}
+                        fill
+                        sizes="(min-width: 1024px) 1200px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <figcaption className="px-3 pb-2 pt-5 font-mono text-[10px] tracking-[0.2em] text-muted-foreground uppercase md:px-4">
+                      {visual.caption}
+                    </figcaption>
+                  </figure>
+                </Reveal>
+              ))}
+            </section>
+          )}
+
+          {project.video && (
+            <Reveal delay={240}>
+              <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card p-4 md:p-6">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/6 via-transparent to-primary/8" aria-hidden="true" />
                 <div className="relative overflow-hidden rounded-[1.5rem] border border-border/80 bg-background">
                   <video
                     className="block h-auto w-full"
@@ -138,20 +161,9 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                     Dein Browser unterstützt die Videowiedergabe nicht.
                   </video>
                 </div>
-              ) : (
-                <div className="relative flex aspect-[16/10] items-center justify-center overflow-hidden rounded-[1.5rem] border border-border/80 bg-gradient-to-br from-muted via-background to-card">
-                  <div className="flex flex-col items-center gap-4 text-center">
-                    <div className="rounded-full border border-border bg-background/80 px-3 py-1.5 font-mono text-[10px] tracking-[0.25em] text-muted-foreground uppercase">
-                      Mockup
-                    </div>
-                    <p className="max-w-md text-xl font-medium tracking-tight text-foreground md:text-2xl">
-                      Produkt-Lösung / Interface-Konzept
-                    </p>
-                  </div>
-                </div>
-              )}
-            </div>
-          </Reveal>
+              </div>
+            </Reveal>
+          )}
 
           <Reveal delay={300}>
             <article className="rounded-[2rem] border border-border bg-card/60 p-6 md:p-8">

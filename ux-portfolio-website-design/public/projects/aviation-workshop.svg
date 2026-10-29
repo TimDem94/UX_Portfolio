@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="92" y1="74" x2="1440" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9E4D8"/>
+      <stop offset="1" stop-color="#CFCFC3"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#59635C" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" rx="34" fill="url(#wall)"/>
+  <rect width="1600" height="1000" rx="34" fill="url(#dots)"/>
+  <rect x="62" y="58" width="1476" height="884" rx="24" fill="#F2EFE7" stroke="#B8B8AC" stroke-width="2"/>
+  <path d="M62 145h1476" stroke="#D2D0C7" stroke-width="2"/>
+  <circle cx="105" cy="102" r="8" fill="#C77C61"/>
+  <circle cx="132" cy="102" r="8" fill="#D6A36B"/>
+  <circle cx="159" cy="102" r="8" fill="#88A998"/>
+  <text x="205" y="108" fill="#56615A" font-family="Arial, sans-serif" font-size="17" letter-spacing="2">SERVICE DESIGN WORKSHOP / SYNTHESIZED VIEW</text>
+  <text x="112" y="218" fill="#28352F" font-family="Arial, sans-serif" font-size="37" font-weight="600">A clearer path through the work</text>
+  <text x="112" y="254" fill="#7B8178" font-family="Arial, sans-serif" font-size="17">Map the handoffs. Find the friction. Agree on what matters.</text>
+  <rect x="110" y="295" width="1380" height="80" rx="14" fill="#E4E2D9"/>
+  <text x="138" y="326" fill="#8A8D83" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">SIGNAL</text>
+  <text x="138" y="351" fill="#34413A" font-family="Arial, sans-serif" font-size="17">What people need to do</text>
+  <text x="532" y="326" fill="#8A8D83" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">HANDOFF</text>
+  <text x="532" y="351" fill="#34413A" font-family="Arial, sans-serif" font-size="17">Where context gets lost</text>
+  <text x="948" y="326" fill="#8A8D83" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">OPPORTUNITY</text>
+  <text x="948" y="351" fill="#34413A" font-family="Arial, sans-serif" font-size="17">Where a better tool can help</text>
+  <path d="M485 318v33m430-33v33" stroke="#C1C0B6" stroke-width="2"/>
+  <text x="122" y="434" fill="#6F7870" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">01 / CURRENT JOURNEY</text>
+  <path d="M202 540H1374" stroke="#B6B9AF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M445 540h167m234 0h185" stroke="#A6784E" stroke-width="3" stroke-dasharray="8 10"/>
+  <circle cx="208" cy="540" r="13" fill="#8AA999"/>
+  <circle cx="524" cy="540" r="13" fill="#CF9871"/>
+  <circle cx="839" cy="540" r="13" fill="#9094AE"/>
+  <circle cx="1194" cy="540" r="13" fill="#8AA999"/>
+  <g>
+    <rect x="126" y="462" width="220" height="54" rx="10" fill="#F4DCA8"/>
+    <text x="148" y="496" fill="#4F564C" font-family="Arial, sans-serif" font-size="14">Request arrives</text>
+    <rect x="404" y="575" width="240" height="54" rx="10" fill="#F1C7B4"/>
+    <text x="426" y="609" fill="#4F564C" font-family="Arial, sans-serif" font-size="14">Details gathered twice</text>
+    <rect x="716" y="462" width="246" height="54" rx="10" fill="#D7D1E6"/>
+    <text x="738" y="496" fill="#4F564C" font-family="Arial, sans-serif" font-size="14">Decision needs context</text>
+    <rect x="1080" y="575" width="235" height="54" rx="10" fill="#C9E0D4"/>
+    <text x="1102" y="609" fill="#4F564C" font-family="Arial, sans-serif" font-size="14">Work is completed</text>
+  </g>
+  <text x="122" y="690" fill="#6F7870" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">02 / DESIGN PRINCIPLES</text>
+  <rect x="122" y="716" width="405" height="132" rx="16" fill="#FAF8F1"/>
+  <rect x="548" y="716" width="405" height="132" rx="16" fill="#FAF8F1"/>
+  <rect x="974" y="716" width="405" height="132" rx="16" fill="#FAF8F1"/>
+  <circle cx="158" cy="754" r="9" fill="#C77C61"/>
+  <circle cx="584" cy="754" r="9" fill="#8AA999"/>
+  <circle cx="1010" cy="754" r="9" fill="#D6A36B"/>
+  <text x="182" y="759" fill="#3C4942" font-family="Arial, sans-serif" font-size="17" font-weight="600">Keep the next step visible</text>
+  <text x="182" y="793" fill="#777F76" font-family="Arial, sans-serif" font-size="14">Make status and ownership easy to scan.</text>
+  <text x="608" y="759" fill="#3C4942" font-family="Arial, sans-serif" font-size="17" font-weight="600">Capture context once</text>
+  <text x="608" y="793" fill="#777F76" font-family="Arial, sans-serif" font-size="14">Reduce repeated input between teams.</text>
+  <text x="1034" y="759" fill="#3C4942" font-family="Arial, sans-serif" font-size="17" font-weight="600">Design for the real setting</text>
+  <text x="1034" y="793" fill="#777F76" font-family="Arial, sans-serif" font-size="14">Fit the device to the working moment.</text>
+  <text x="123" y="897" fill="#90938A" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">ILLUSTRATIVE ARTIFACT — NO CLIENT DATA OR ORIGINAL SCREENS</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="114" y1="77" x2="1491" y2="941" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#252F31"/>
+      <stop offset="1" stop-color="#47544A"/>
+    </linearGradient>
+    <linearGradient id="tablet" x1="635" y1="115" x2="1116" y2="904" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202829"/>
+      <stop offset="1" stop-color="#111819"/>
+    </linearGradient>
+    <linearGradient id="display" x1="704" y1="186" x2="1053" y2="835" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBFAF5"/>
+      <stop offset="1" stop-color="#EDEFE8"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" stroke="#FFFFFF" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="shadow" x="500" y="60" width="750" height="930" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="26"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+      <feBlend in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" rx="34" fill="url(#bg)"/>
+  <rect width="1600" height="1000" rx="34" fill="url(#grid)"/>
+  <circle cx="235" cy="170" r="215" fill="#D4A875" fill-opacity=".08"/>
+  <circle cx="1378" cy="810" r="300" fill="#87A88E" fill-opacity=".1"/>
+  <text x="104" y="146" fill="#F2F1E8" font-family="Arial, sans-serif" font-size="29" letter-spacing="4">DESIGNED FOR THE FIELD</text>
+  <text x="104" y="185" fill="#BCC6BD" font-family="Arial, sans-serif" font-size="15" letter-spacing="1.5">A CONCEPT FOR PAPER-LIGHT WORK / TABLET FIRST</text>
+  <g transform="rotate(-4 890 525)" filter="url(#shadow)">
+    <rect x="614" y="113" width="526" height="796" rx="47" fill="url(#tablet)" stroke="#87948B" stroke-opacity=".68" stroke-width="2"/>
+    <rect x="634" y="135" width="486" height="752" rx="31" fill="url(#display)"/>
+    <circle cx="876" cy="122" r="4" fill="#738078"/>
+    <rect x="654" y="155" width="446" height="45" fill="#F8F8F3"/>
+    <path d="M654 200h446" stroke="#E1E4DA"/>
+    <circle cx="681" cy="177" r="10" fill="#3F6856"/>
+    <path d="M677 177h8m-4-4v8" stroke="#E4ECE4" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="703" y="181" fill="#4B5A50" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.2">FIELD WORKSPACE</text>
+    <circle cx="1070" cy="177" r="12" fill="#E8E9E1"/>
+    <text x="676" y="248" fill="#818B80" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8">WORK ORDER / 04—218</text>
+    <text x="676" y="290" fill="#263831" font-family="Arial, sans-serif" font-size="26" font-weight="600">Inspection checklist</text>
+    <text x="676" y="318" fill="#858E83" font-family="Arial, sans-serif" font-size="13">Follow each step and record the result.</text>
+    <rect x="676" y="344" width="402" height="76" rx="13" fill="#E7ECE4"/>
+    <circle cx="706" cy="382" r="13" fill="#3F725B"/>
+    <path d="m700 382 4 4 8-9" stroke="#F7F5EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="733" y="377" fill="#3D4D41" font-family="Arial, sans-serif" font-size="14" font-weight="600">Review task information</text>
+    <text x="733" y="398" fill="#788277" font-family="Arial, sans-serif" font-size="12">Completed</text>
+    <rect x="676" y="433" width="402" height="76" rx="13" fill="#E7ECE4"/>
+    <circle cx="706" cy="471" r="13" fill="#3F725B"/>
+    <path d="m700 471 4 4 8-9" stroke="#F7F5EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="733" y="466" fill="#3D4D41" font-family="Arial, sans-serif" font-size="14" font-weight="600">Confirm work area</text>
+    <text x="733" y="487" fill="#788277" font-family="Arial, sans-serif" font-size="12">Completed</text>
+    <rect x="676" y="522" width="402" height="95" rx="13" fill="#FFFFFF" stroke="#D5DBD1" stroke-width="2"/>
+    <circle cx="706" cy="569" r="13" fill="#D3A36D"/>
+    <path d="M706 562v8m0 5v.1" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+    <text x="733" y="557" fill="#3D4D41" font-family="Arial, sans-serif" font-size="14" font-weight="600">Record inspection result</text>
+    <text x="733" y="581" fill="#818B80" font-family="Arial, sans-serif" font-size="12">Add a note or mark complete.</text>
+    <rect x="676" y="637" width="402" height="83" rx="13" fill="#FFFFFF" stroke="#D5DBD1"/>
+    <path d="M701 667h133" stroke="#C2C9BE" stroke-width="4" stroke-linecap="round"/>
+    <path d="M701 687h290" stroke="#E1E5DD" stroke-width="4" stroke-linecap="round"/>
+    <rect x="676" y="740" width="402" height="64" rx="14" fill="#375F4E"/>
+    <text x="808" y="779" fill="#F8F5EC" font-family="Arial, sans-serif" font-size="14" font-weight="600" letter-spacing=".8">SAVE AND CONTINUE</text>
+  </g>
+  <g transform="rotate(4 335 613)">
+    <rect x="119" y="376" width="397" height="323" rx="22" fill="#F5F0E3" fill-opacity=".97"/>
+    <text x="151" y="423" fill="#69736A" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">LESS PAPER / MORE CLARITY</text>
+    <rect x="151" y="455" width="332" height="55" rx="10" fill="#DFE9E0"/>
+    <circle cx="178" cy="482" r="9" fill="#54806A"/>
+    <path d="m174 482 3 3 6-7" stroke="#F8F6EF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M201 478h165M201 491h111" stroke="#78857A" stroke-width="4" stroke-linecap="round"/>
+    <rect x="151" y="522" width="332" height="55" rx="10" fill="#DFE9E0"/>
+    <circle cx="178" cy="549" r="9" fill="#54806A"/>
+    <path d="m174 549 3 3 6-7" stroke="#F8F6EF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M201 545h175M201 558h97" stroke="#78857A" stroke-width="4" stroke-linecap="round"/>
+    <rect x="151" y="589" width="332" height="55" rx="10" fill="#F1DEC2"/>
+    <circle cx="178" cy="616" r="9" fill="#CE9863"/>
+    <path d="M201 612h156M201 625h117" stroke="#8A7B67" stroke-width="4" stroke-linecap="round"/>
+    <text x="151" y="674" fill="#8D9186" font-family="Arial, sans-serif" font-size="11" letter-spacing="1">ILLUSTRATIVE PROTOTYPE</text>
+  </g>
+  <text x="105" y="908" fill="#C4CCC2" font-family="Arial, sans-serif" font-size="13" letter-spacing="1.4">CONCEPT VISUALIZATION / NOT AN ORIGINAL PRODUCT SCREEN</text>
+</svg>

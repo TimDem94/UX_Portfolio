@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="145" y1="60" x2="1435" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9E4DF"/>
+      <stop offset="1" stop-color="#AEBEB5"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="310" y1="174" x2="1300" y2="835" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFBF7"/>
+      <stop offset="1" stop-color="#F0F1EA"/>
+    </linearGradient>
+    <filter id="shadow" x="140" y="90" width="1320" height="850" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" rx="34" fill="url(#bg)"/>
+  <circle cx="1450" cy="126" r="205" fill="#F3E4C5" fill-opacity=".45"/>
+  <circle cx="132" cy="899" r="254" fill="#7F9D90" fill-opacity=".2"/>
+  <rect x="189" y="145" width="1220" height="714" rx="30" fill="#53645C" fill-opacity=".2" filter="url(#shadow)"/>
+  <rect x="180" y="132" width="1240" height="720" rx="24" fill="url(#screen)" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="2"/>
+  <rect x="180" y="132" width="1240" height="68" rx="24" fill="#FAFAF6"/>
+  <path d="M180 176h1240" stroke="#E4E6DD"/>
+  <circle cx="218" cy="166" r="7" fill="#C77C61"/>
+  <circle cx="243" cy="166" r="7" fill="#D6A36B"/>
+  <circle cx="268" cy="166" r="7" fill="#8AA999"/>
+  <text x="310" y="172" fill="#56655C" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">OPERATIONS DESK / CONCEPT PROTOTYPE</text>
+  <rect x="220" y="235" width="232" height="576" rx="16" fill="#E9ECE5"/>
+  <circle cx="260" cy="281" r="18" fill="#36584D"/>
+  <path d="M251 281h18M260 272v18" stroke="#DDE9DF" stroke-width="2" stroke-linecap="round"/>
+  <text x="292" y="286" fill="#33423A" font-family="Arial, sans-serif" font-size="17" font-weight="600">Workspace</text>
+  <rect x="242" y="325" width="186" height="42" rx="10" fill="#D7E2DA"/>
+  <circle cx="261" cy="346" r="5" fill="#547B68"/>
+  <text x="278" y="351" fill="#394B41" font-family="Arial, sans-serif" font-size="13">Overview</text>
+  <circle cx="261" cy="400" r="5" fill="#929B91"/>
+  <text x="278" y="405" fill="#68736A" font-family="Arial, sans-serif" font-size="13">Requests</text>
+  <circle cx="261" cy="454" r="5" fill="#929B91"/>
+  <text x="278" y="459" fill="#68736A" font-family="Arial, sans-serif" font-size="13">In progress</text>
+  <circle cx="261" cy="508" r="5" fill="#929B91"/>
+  <text x="278" y="513" fill="#68736A" font-family="Arial, sans-serif" font-size="13">Completed</text>
+  <path d="M244 546h182" stroke="#CFD5CC"/>
+  <text x="244" y="583" fill="#899188" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">TEAM VIEW</text>
+  <rect x="244" y="604" width="29" height="29" rx="9" fill="#E9CCAC"/>
+  <rect x="280" y="604" width="29" height="29" rx="9" fill="#C4D8CC"/>
+  <rect x="316" y="604" width="29" height="29" rx="9" fill="#D9D2E5"/>
+  <rect x="352" y="604" width="29" height="29" rx="9" fill="#E5C5B6"/>
+  <text x="243" y="699" fill="#A0A69B" font-family="Arial, sans-serif" font-size="12">Illustrative interface</text>
+  <text x="490" y="264" fill="#293A32" font-family="Arial, sans-serif" font-size="28" font-weight="600">Good morning</text>
+  <text x="490" y="293" fill="#858D82" font-family="Arial, sans-serif" font-size="14">A clear view of work that needs attention.</text>
+  <rect x="1197" y="239" width="174" height="44" rx="12" fill="#375B4D"/>
+  <text x="1230" y="267" fill="#F6F4EC" font-family="Arial, sans-serif" font-size="13" font-weight="600">+ New request</text>
+  <rect x="490" y="329" width="258" height="112" rx="15" fill="#FFFFFF" stroke="#E6E8E0"/>
+  <rect x="769" y="329" width="258" height="112" rx="15" fill="#FFFFFF" stroke="#E6E8E0"/>
+  <rect x="1048" y="329" width="323" height="112" rx="15" fill="#FFFFFF" stroke="#E6E8E0"/>
+  <text x="514" y="363" fill="#838C82" font-family="Arial, sans-serif" font-size="12" letter-spacing="1">OPEN ITEMS</text>
+  <text x="514" y="410" fill="#293A32" font-family="Arial, sans-serif" font-size="36" font-weight="600">12</text>
+  <text x="793" y="363" fill="#838C82" font-family="Arial, sans-serif" font-size="12" letter-spacing="1">IN REVIEW</text>
+  <text x="793" y="410" fill="#293A32" font-family="Arial, sans-serif" font-size="36" font-weight="600">04</text>
+  <text x="1072" y="363" fill="#838C82" font-family="Arial, sans-serif" font-size="12" letter-spacing="1">THIS WEEK</text>
+  <path d="M1074 414h21v-18h22v18h22v-34h22v34h22v-12h22v12h22" stroke="#638877" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="490" y="491" fill="#33423A" font-family="Arial, sans-serif" font-size="18" font-weight="600">Recently updated</text>
+  <text x="1310" y="491" fill="#688172" font-family="Arial, sans-serif" font-size="12">VIEW ALL  →</text>
+  <rect x="490" y="516" width="881" height="69" rx="12" fill="#FFFFFF" stroke="#E6E8E0"/>
+  <rect x="490" y="597" width="881" height="69" rx="12" fill="#FFFFFF" stroke="#E6E8E0"/>
+  <rect x="490" y="678" width="881" height="69" rx="12" fill="#FFFFFF" stroke="#E6E8E0"/>
+  <circle cx="524" cy="550" r="7" fill="#D4A56E"/>
+  <circle cx="524" cy="631" r="7" fill="#739581"/>
+  <circle cx="524" cy="712" r="7" fill="#8E8FB0"/>
+  <text x="548" y="546" fill="#38473F" font-family="Arial, sans-serif" font-size="14" font-weight="600">Review details</text>
+  <text x="548" y="567" fill="#939A91" font-family="Arial, sans-serif" font-size="12">Assigned to a team · Updated today</text>
+  <text x="548" y="627" fill="#38473F" font-family="Arial, sans-serif" font-size="14" font-weight="600">Prepare next step</text>
+  <text x="548" y="648" fill="#939A91" font-family="Arial, sans-serif" font-size="12">Ready for review · Updated yesterday</text>
+  <text x="548" y="708" fill="#38473F" font-family="Arial, sans-serif" font-size="14" font-weight="600">Confirm handoff</text>
+  <text x="548" y="729" fill="#939A91" font-family="Arial, sans-serif" font-size="12">Waiting on input · Updated this week</text>
+  <rect x="1198" y="536" width="135" height="28" rx="14" fill="#F3E8D3"/>
+  <text x="1223" y="555" fill="#876B43" font-family="Arial, sans-serif" font-size="10" letter-spacing="1">NEEDS REVIEW</text>
+  <rect x="1215" y="617" width="118" height="28" rx="14" fill="#DCE9DF"/>
+  <text x="1240" y="636" fill="#54725E" font-family="Arial, sans-serif" font-size="10" letter-spacing="1">IN PROGRESS</text>
+  <rect x="1214" y="698" width="119" height="28" rx="14" fill="#E4E1EC"/>
+  <text x="1238" y="717" fill="#68647C" font-family="Arial, sans-serif" font-size="10" letter-spacing="1">IN PREPARATION</text>
+  <text x="110" y="925" fill="#F8F7F1" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">SYNTHETIC SCREEN CONCEPT / ALL CONTENT IS ILLUSTRATIVE</text>
+</svg>

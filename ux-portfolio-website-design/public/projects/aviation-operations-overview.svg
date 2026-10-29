@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1470" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B2529"/>
+      <stop offset="1" stop-color="#344342"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="380" y1="210" x2="1260" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F2E9"/>
+      <stop offset="1" stop-color="#E6E4D9"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="940" y1="400" x2="1460" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25343A"/>
+      <stop offset="1" stop-color="#162328"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="shadow" x="250" y="130" width="1290" height="850" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="30"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+      <feBlend in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" rx="36" fill="url(#bg)"/>
+  <rect width="1600" height="1000" rx="36" fill="url(#grid)"/>
+  <circle cx="1420" cy="150" r="220" fill="#D6A36B" fill-opacity=".08"/>
+  <circle cx="240" cy="870" r="300" fill="#8CC0AF" fill-opacity=".06"/>
+  <path d="M108 144h82" stroke="#D7AC76" stroke-width="3" stroke-linecap="round"/>
+  <text x="108" y="205" fill="#F5F1E9" font-family="Arial, sans-serif" font-size="31" letter-spacing="5">DIGITAL WORKFLOWS</text>
+  <text x="108" y="249" fill="#B7C0B9" font-family="Arial, sans-serif" font-size="17" letter-spacing="2">ABSTRACTED PROJECT STUDY / 2024—TODAY</text>
+  <g transform="rotate(-3 690 562)" filter="url(#shadow)">
+    <rect x="310" y="250" width="810" height="584" rx="24" fill="url(#panel)"/>
+    <rect x="310" y="250" width="810" height="70" rx="24" fill="#FBF9F3"/>
+    <path d="M310 296h810" stroke="#D8D6CD"/>
+    <circle cx="348" cy="284" r="7" fill="#C77C61"/>
+    <circle cx="372" cy="284" r="7" fill="#D6A36B"/>
+    <circle cx="396" cy="284" r="7" fill="#8AAE9F"/>
+    <text x="432" y="291" fill="#4B5854" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">SERVICE BLUEPRINT / INTERNAL TOOLS</text>
+    <text x="352" y="371" fill="#263330" font-family="Arial, sans-serif" font-size="28" font-weight="600">From handoff to done</text>
+    <text x="352" y="399" fill="#79817A" font-family="Arial, sans-serif" font-size="14">A shared view of work across teams</text>
+    <rect x="352" y="432" width="221" height="333" rx="14" fill="#E9E7DD"/>
+    <rect x="590" y="432" width="221" height="333" rx="14" fill="#E9E7DD"/>
+    <rect x="828" y="432" width="250" height="333" rx="14" fill="#E9E7DD"/>
+    <text x="372" y="465" fill="#67726A" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">UNDERSTAND</text>
+    <text x="610" y="465" fill="#67726A" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">DESIGN</text>
+    <text x="848" y="465" fill="#67726A" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">DELIVER</text>
+    <rect x="370" y="488" width="184" height="72" rx="9" fill="#F6DCA9"/>
+    <rect x="370" y="576" width="184" height="92" rx="9" fill="#C5DED3"/>
+    <rect x="608" y="488" width="184" height="94" rx="9" fill="#D6CEE5"/>
+    <rect x="608" y="598" width="184" height="70" rx="9" fill="#F0C7B4"/>
+    <rect x="846" y="488" width="214" height="74" rx="9" fill="#C5DED3"/>
+    <rect x="846" y="578" width="214" height="90" rx="9" fill="#F6DCA9"/>
+    <path d="M387 513h119M387 531h86M387 601h125M387 621h108M625 515h125M625 535h98M625 623h125M863 515h150M863 535h100M863 603h148M863 623h104" stroke="#65716A" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+    <path d="M554 612h42m196-85h42m214 10h31" stroke="#BD8056" stroke-width="2" stroke-dasharray="5 7"/>
+    <circle cx="574" cy="612" r="5" fill="#BD8056"/>
+    <circle cx="812" cy="527" r="5" fill="#BD8056"/>
+    <circle cx="1041" cy="537" r="5" fill="#BD8056"/>
+    <rect x="352" y="696" width="130" height="28" rx="14" fill="#D8D6CD"/>
+    <text x="370" y="715" fill="#59645D" font-family="Arial, sans-serif" font-size="11" letter-spacing="1">SPRINT REVIEW</text>
+  </g>
+  <g transform="rotate(5 1270 627)">
+    <rect x="1092" y="360" width="405" height="532" rx="34" fill="#10191C" stroke="#83918A" stroke-opacity=".6" stroke-width="2"/>
+    <rect x="1112" y="382" width="365" height="488" rx="23" fill="url(#screen)"/>
+    <circle cx="1294" cy="382" r="3" fill="#74827B"/>
+    <text x="1140" y="430" fill="#C7D0C8" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">FIELD MODE / TABLET</text>
+    <text x="1140" y="475" fill="#F4F2E9" font-family="Arial, sans-serif" font-size="25" font-weight="600">Work order</text>
+    <rect x="1140" y="500" width="309" height="70" rx="12" fill="#35464A"/>
+    <circle cx="1164" cy="535" r="10" fill="#86B6A0"/>
+    <path d="m1159 535 4 4 7-8" stroke="#142522" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1187 528h112M1187 544h78" stroke="#D4DDD5" stroke-opacity=".72" stroke-width="5" stroke-linecap="round"/>
+    <rect x="1140" y="588" width="309" height="70" rx="12" fill="#35464A"/>
+    <circle cx="1164" cy="623" r="10" fill="#86B6A0"/>
+    <path d="m1159 623 4 4 7-8" stroke="#142522" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1187 616h132M1187 632h91" stroke="#D4DDD5" stroke-opacity=".72" stroke-width="5" stroke-linecap="round"/>
+    <rect x="1140" y="676" width="309" height="70" rx="12" fill="#35464A"/>
+    <circle cx="1164" cy="711" r="10" fill="#D8A66C"/>
+    <path d="M1187 704h114M1187 720h80" stroke="#D4DDD5" stroke-opacity=".72" stroke-width="5" stroke-linecap="round"/>
+    <rect x="1140" y="776" width="309" height="52" rx="12" fill="#D7AC76"/>
+    <text x="1233" y="808" fill="#273330" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">SAVE PROGRESS</text>
+  </g>
+  <text x="108" y="930" fill="#C1C9C1" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">WORKSHOP INSIGHTS  ·  DESKTOP FLOWS  ·  FIELD-READY INTERFACES</text>
+</svg>
