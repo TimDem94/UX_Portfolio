@@ -24,17 +24,17 @@ export const projects: CaseStudy[] = [
     tags: ['User Research', 'Prototyping', 'Mobility'],
     client: 'STADT:up',
     period: '2023–2026',
-    image: '/projects/autonomous-driving.png',
+    image: '/projects/autonomous-driving.webp',
     video: '/projects/stadt-up.mp4',
-    role: 'Senior UX/UI Designer',
-    duration: '18 Monate',
-    tools: ['Figma', 'User Interviews', 'Design Systems'],
+    role: 'Projektleitung | UX Designer & Researcher',
+    duration: '32 Monate',
+    tools: ['Figma','Adobe CC', 'Condens'],
     summary:
-      'Ich habe die Interaktions- und Informationsarchitektur für interne Interfaces autonomer Fahrzeugeentwickelt, damit Fahrgäste komplexe Fahrsituationen verstehen und so Vertrauen in das System aufbauen können.',
+      'Vertrauen durch Transparenz: Ich habe Informations- und Interaktionskonzepte für das Interieur autonomer Fahrzeuge erforscht und prototypisch validiert. Der Fokus lag darauf, komplexe Fahrmanöver für die Fahrgäste intuitiv verständlich zu übersetzen und so ein sicheres Fahrerlebnis zu schaffen.',
     problem:
-      'Fahrzeuge mit zunehmender Automatisierung erzeugen mehr Informationen auf einmal. Die Herausforderung war, diese Daten so zu strukturieren, dass sie im Fokus bleiben, ohne die Aufmerksamkeit des Fahrers zu überfordern oder kritische Zustände zu verschleiern.',
+      'Autonome Fahrzeuge verarbeiten eine immense Menge an System- und Umgebungsdaten. Die Herausforderung bestand darin, diese Informationsflut im Interface so zu strukturieren, dass Passagiere die Entscheidungen des Fahrzeugs jederzeit nachvollziehen können, ohne von technischen Details überfordert zu werden – Transparenz schaffen, ohne kognitiv zu überlasten.',
     process:
-      'Ich habe Recherchen mit Nutzern, Stakeholdern und dem Produktteam kombiniert, um mentale Modelle und Risikobereiche im Fahrzeugkontext zu verstehen. Danach habe ich Konzepte in iterativen Wireframes und Prototypen ausgebaut und mit Testings in realistischen Szenarien validiert.',
+      'Um mentale Modelle und Risikobereiche im autonomen Fahrzeugkontext zu verstehen, habe ich Nutzerforschung eng mit den Perspektiven von Stakeholdern und dem Produktteam verzahnt. Aus diesen Erkenntnissen heraus entstanden direkt High-Fidelity-Prototypen, die darauf ausgelegt waren, mit minimalem Aufwand ein hochgradig immersives Fahrgefühl zu simulieren. Das Herzstück der Validierung: In insgesamt vier Studien mit über 120 Proband:innen habe ich diese erlebnisnahen Interface-Konzepte unter realistischen Bedingungen getestet, iterativ geschärft und erfolgreich validiert.',
     solution:
       'Das Ergebnis war ein modularer Informationsaufbau mit klaren Prioritäten, fokussierten Zustandsanzeigen und einer konsequenten visuelle Hierarchie. So konnte das System komplexe Fahrinhalte verständlich, schnell erfassbar und für den Fahrer vertrauenswürdig vermitteln.',
   },

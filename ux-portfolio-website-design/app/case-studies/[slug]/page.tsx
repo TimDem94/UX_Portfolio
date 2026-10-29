@@ -38,7 +38,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
   return (
     <>
-      <SiteHeader />
+      <SiteHeader isCaseStudy />
 
       <main className="mx-auto max-w-6xl px-6 pb-20 pt-32 md:px-10">
         <Reveal>

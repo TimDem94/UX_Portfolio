@@ -8,11 +8,13 @@ const links = [
   { href: '#contact', label: 'Kontakt' },
 ]
 
-export function SiteHeader() {
+export function SiteHeader({ isCaseStudy = false }: { isCaseStudy?: boolean }) {
+  const visibleLinks = isCaseStudy ? links.filter((link) => link.href === '#contact') : links
+
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 md:px-10">
-        <a href="#top" className="inline-flex items-center">
+        <a href={isCaseStudy ? '/' : '#top'} className="inline-flex items-center">
           <Image
             src="/projects/New-icon_noBG.png"
             alt="Tim Demesmaeker"
@@ -24,7 +26,7 @@ export function SiteHeader() {
         </a>
         <nav aria-label="Hauptnavigation" className="flex items-center gap-6 md:gap-8">
           <ul className="hidden items-center gap-8 sm:flex">
-            {links.map((link) => (
+            {visibleLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
