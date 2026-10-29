@@ -1,6 +1,6 @@
 import { ArrowUpRight } from 'lucide-react'
+import { ContactVideo } from '@/components/contact-video'
 import { Reveal } from '@/components/reveal'
-import { withBasePath } from '@/lib/site-path'
 
 const EMAIL = 'timdemes@web.de'
 
@@ -26,17 +26,7 @@ export function SiteFooter() {
             </a>
           </Reveal>
 
-          <video
-            className="mx-auto block h-auto w-full max-w-[220px] invert dark:invert-0 lg:translate-y-8 lg:justify-self-end"
-            autoPlay
-            muted
-            playsInline
-            preload="auto"
-            aria-label="Logo-Animation"
-          >
-            <source src={withBasePath('/projects/LogoEffekt.mp4')} type="video/mp4" />
-            Dein Browser unterstützt die Videowiedergabe nicht.
-          </video>
+          <ContactVideo />
         </div>
 
         <div className="mt-24 flex flex-col gap-8 border-t border-border pt-8 sm:flex-row sm:items-center sm:justify-between">
