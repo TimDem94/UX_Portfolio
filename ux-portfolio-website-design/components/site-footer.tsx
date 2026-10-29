@@ -2,7 +2,7 @@ import { ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
 import { withBasePath } from '@/lib/site-path'
 
-const EMAIL = 'hallo@timdemesmaeker.de'
+const EMAIL = 'timdemes@web.de'
 
 const socials = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/tim-demesmaeker-9867982a0/' },
