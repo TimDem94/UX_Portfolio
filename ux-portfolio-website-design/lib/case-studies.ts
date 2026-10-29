@@ -6,6 +6,7 @@ export type CaseStudy = {
   client: string
   period: string
   image: string
+  video?: string
   role: string
   duration: string
   tools: string[]
@@ -24,11 +25,12 @@ export const projects: CaseStudy[] = [
     client: 'STADT:up',
     period: '2023–2026',
     image: '/projects/autonomous-driving.png',
+    video: '/projects/stadt-up.mp4',
     role: 'Senior UX/UI Designer',
     duration: '18 Monate',
     tools: ['Figma', 'User Interviews', 'Design Systems'],
     summary:
-      'Ich habe die Interaktions- und Informationsarchitektur für fahrzeuginterne Interfaces entwickelt, damit Fahrer komplexe Fahr- und Assistenzdaten verständlich und sicher aufnehmen können.',
+      'Ich habe die Interaktions- und Informationsarchitektur für interne Interfaces autonomer Fahrzeugeentwickelt, damit Fahrgäste komplexe Fahrsituationen verstehen und so Vertrauen in das System aufbauen können.',
     problem:
       'Fahrzeuge mit zunehmender Automatisierung erzeugen mehr Informationen auf einmal. Die Herausforderung war, diese Daten so zu strukturieren, dass sie im Fokus bleiben, ohne die Aufmerksamkeit des Fahrers zu überfordern oder kritische Zustände zu verschleiern.',
     process:

@@ -12,8 +12,8 @@ export default function Page() {
       <main>
         <Hero />
         <CaseStudies />
-        <About />
         <Experience />
+        <About />
       </main>
       <SiteFooter />
     </>

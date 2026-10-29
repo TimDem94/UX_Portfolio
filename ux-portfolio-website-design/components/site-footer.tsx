@@ -11,18 +11,32 @@ export function SiteFooter() {
   return (
     <footer id="contact" className="scroll-mt-16 border-t border-border">
       <div className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
-        <Reveal>
-          <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Kontakt</p>
-          <h2 className="mt-4 max-w-3xl text-4xl font-medium tracking-tight text-balance md:text-6xl">
-            Lass uns gemeinsam etwas Gutes gestalten.
-          </h2>
-          <a
-            href={`mailto:${EMAIL}`}
-            className="mt-10 inline-block text-xl text-muted-foreground underline decoration-border underline-offset-8 transition-colors hover:text-foreground hover:decoration-foreground md:text-2xl"
+        <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_220px] lg:items-end lg:gap-10">
+          <Reveal>
+            <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Kontakt</p>
+            <h2 className="mt-4 max-w-3xl text-4xl font-medium tracking-tight text-balance md:text-6xl">
+              Lass uns gemeinsam etwas Gutes gestalten.
+            </h2>
+            <a
+              href={`mailto:${EMAIL}`}
+              className="mt-10 inline-block text-xl text-muted-foreground underline decoration-border underline-offset-8 transition-colors hover:text-foreground hover:decoration-foreground md:text-2xl"
+            >
+              {EMAIL}
+            </a>
+          </Reveal>
+
+          <video
+            className="mx-auto block h-auto w-full max-w-[220px] invert dark:invert-0 lg:translate-y-8 lg:justify-self-end"
+            autoPlay
+            muted
+            playsInline
+            preload="auto"
+            aria-label="Logo-Animation"
           >
-            {EMAIL}
-          </a>
-        </Reveal>
+            <source src="/projects/LogoEffekt.mp4" type="video/mp4" />
+            Dein Browser unterstützt die Videowiedergabe nicht.
+          </video>
+        </div>
 
         <div className="mt-24 flex flex-col gap-8 border-t border-border pt-8 sm:flex-row sm:items-center sm:justify-between">
           <ul className="flex flex-wrap gap-6">

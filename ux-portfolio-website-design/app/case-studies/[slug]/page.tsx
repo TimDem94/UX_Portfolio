@@ -121,16 +121,34 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
           <Reveal delay={240}>
             <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card p-4 md:p-6">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/6 via-transparent to-primary/8" aria-hidden="true" />
-              <div className="relative flex aspect-[16/10] items-center justify-center overflow-hidden rounded-[1.5rem] border border-border/80 bg-gradient-to-br from-muted via-background to-card">
-                <div className="flex flex-col items-center gap-4 text-center">
-                  <div className="rounded-full border border-border bg-background/80 px-3 py-1.5 font-mono text-[10px] tracking-[0.25em] text-muted-foreground uppercase">
-                    Mockup
-                  </div>
-                  <p className="max-w-md text-xl font-medium tracking-tight text-foreground md:text-2xl">
-                    Produkt-Lösung / Interface-Konzept
-                  </p>
+              {project.video ? (
+                <div className="relative overflow-hidden rounded-[1.5rem] border border-border/80 bg-background">
+                  <video
+                    className="block h-auto w-full"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="auto"
+                    poster={project.image}
+                    aria-label={`${project.title} Produktvideo`}
+                  >
+                    <source src={project.video} type="video/mp4" />
+                    Dein Browser unterstützt die Videowiedergabe nicht.
+                  </video>
                 </div>
-              </div>
+              ) : (
+                <div className="relative flex aspect-[16/10] items-center justify-center overflow-hidden rounded-[1.5rem] border border-border/80 bg-gradient-to-br from-muted via-background to-card">
+                  <div className="flex flex-col items-center gap-4 text-center">
+                    <div className="rounded-full border border-border bg-background/80 px-3 py-1.5 font-mono text-[10px] tracking-[0.25em] text-muted-foreground uppercase">
+                      Mockup
+                    </div>
+                    <p className="max-w-md text-xl font-medium tracking-tight text-foreground md:text-2xl">
+                      Produkt-Lösung / Interface-Konzept
+                    </p>
+                  </div>
+                </div>
+              )}
             </div>
           </Reveal>
 

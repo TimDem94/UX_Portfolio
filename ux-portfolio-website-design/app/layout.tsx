@@ -13,12 +13,8 @@ export const metadata: Metadata = {
     'Portfolio von Tim Demesmaeker, UX/UI Designer aus Kiel. Ich übersetze komplexe Probleme in intuitive digitale Erlebnisse.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
-    apple: '/apple-icon.png',
+    icon: [{ url: '/projects/New-icon.jpeg', type: 'image/jpeg', sizes: '1164x1164' }],
+    apple: [{ url: '/projects/New-icon.jpeg', type: 'image/jpeg', sizes: '1164x1164' }],
   },
 }
 
