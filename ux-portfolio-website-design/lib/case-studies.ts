@@ -11,6 +11,7 @@ export type CaseStudy = {
   duration: string
   tools: string[]
   summary: string
+  confidentialityNote?: string
   problem: string
   process: string
   solution: string
@@ -53,7 +54,7 @@ export const projects: CaseStudy[] = [
   },
   {
     slug: 'digitale-werkzeuge-luftfahrt',
-    title: 'Digitale Werkzeuge für komplexe Abläufe',
+    title: 'Digitale Werkzeuge für die Luftfahrtwartung',
     description: 'Interne Software für kaufmännische Teams und Mechaniker:innen – gemeinsam im Sprint entwickelt',
     tags: ['Enterprise UX', 'Agile / Scrum', 'Field Research'],
     client: 'Großes Luftfahrt-Wartungsunternehmen, Hamburg',
@@ -63,7 +64,9 @@ export const projects: CaseStudy[] = [
     duration: 'Seit 2024 (ongoing)',
     tools: ['Figma', 'Workshops', 'Scrum'],
     summary:
-      'Ein langfristiges, abteilungsübergreifendes Engagement für ein großes Luftfahrt-Wartungsunternehmen in Hamburg. Aus Gründen der Vertraulichkeit sind Namen, konkrete Oberflächen und interne Abläufe abstrahiert.',
+      'Ein langfristiges, abteilungsübergreifendes Engagement für ein großes Luftfahrt-Wartungsunternehmen in Hamburg.',
+    confidentialityNote:
+      'Aus Gründen der Vertraulichkeit sind Namen, konkrete Oberflächen und interne Abläufe abstrahiert.',
     problem:
       'Unterschiedliche Teams arbeiten mit sehr verschiedenen Anforderungen: Kaufmännische Abteilungen wie Sales, Controlling und Key Account Management benötigen passende digitale Werkzeuge. Mechaniker:innen wiederum brauchen eine praktikable Lösung auf dem Tablet, um papierbasierte Arbeitsschritte im Arbeitsalltag zu reduzieren.',
     process:

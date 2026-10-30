@@ -33,7 +33,7 @@ export function HeroPortrait() {
       priority
       sizes="(min-width: 1024px) 40vw, 80vw"
       onLoad={() => setLoadedSrc(imageSrc)}
-      className={`hero-portrait relative h-full w-auto max-w-full object-contain object-bottom transition-opacity duration-1000 motion-reduce:transition-none ${
+      className={`hero-portrait relative h-full w-auto max-w-full object-contain object-bottom transition-opacity duration-1000 motion-reduce:transition-none lg:-translate-y-8 ${
         loadedSrc === imageSrc ? 'opacity-100' : 'opacity-0 motion-reduce:opacity-100'
       }`}
     />

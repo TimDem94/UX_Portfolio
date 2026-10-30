@@ -22,14 +22,21 @@ export function About() {
             Design im Dialog mit Mensch und Maschine.
           </h2>
         </Reveal>
-        <Reveal delay={120} className="md:col-span-6 md:col-start-7">
-          <p className="text-lg leading-relaxed text-muted-foreground text-pretty">
-            Mit fünf Geschwistern aufzuwachsen prägt – echte Teamarbeit, Empathie und ein konstruktives Miteinander sind
-            tief in meiner Persönlichkeit verankert. Diese natürliche Kollaboration bringe ich in jeden UX-Prozess ein und erweitere
-            das Team um einen modernen Partner. KI ist für mich kein Buzzword, sondern tägliches
-            Werkzeug. Ob als Sparringspartner bei der Ideengenerierung oder zur Erstellung schneller Hi-Fi-Prototypen –
-            ich mache Visionen zügig greifbar, damit Nutzer und Stakeholder frühzeitig ein echtes Gefühl für das
-            Endprodukt bekommen.
+        <Reveal delay={120} className="space-y-5 text-lg leading-relaxed text-muted-foreground text-pretty md:col-span-6 md:col-start-7">
+          <p>
+            Mit fünf Geschwistern aufzuwachsen prägt – echte{' '}
+            <strong className="font-semibold text-foreground">Teamarbeit, Empathie und ein konstruktives Miteinander</strong>{' '}
+            sind tief in meiner Persönlichkeit verankert. Diese natürliche Kollaboration bringe ich in jeden UX-Prozess ein und
+            erweitere das Team um einen modernen Partner.
+          </p>
+          <p>
+            KI ist für mich kein Buzzword, sondern tägliches Werkzeug. Ob als Sparringspartner bei der Ideengenerierung oder
+            zur Erstellung schneller Hi-Fi-Prototypen –{' '}
+            <strong className="font-semibold text-foreground">
+              ich mache Visionen zügig greifbar, damit Nutzer und Stakeholder frühzeitig ein echtes Gefühl für das Endprodukt
+              bekommen
+            </strong>
+            .
           </p>
         </Reveal>
       </div>

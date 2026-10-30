@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { ArrowLeft, ArrowUpRight } from 'lucide-react'
+import { AlertTriangle, ArrowLeft, ArrowUpRight } from 'lucide-react'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
 import { Reveal } from '@/components/reveal'
@@ -90,6 +90,15 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         </section>
 
         <section className="mt-20 space-y-8">
+          {project.confidentialityNote && (
+            <Reveal>
+              <aside className="flex items-start gap-3 rounded-2xl border border-amber-500/30 bg-amber-500/5 p-5 text-sm leading-relaxed text-muted-foreground">
+                <AlertTriangle className="mt-0.5 size-5 shrink-0 text-amber-600 dark:text-amber-400" aria-hidden="true" />
+                <p>{project.confidentialityNote}</p>
+              </aside>
+            </Reveal>
+          )}
+
           <Reveal delay={60}>
             <article className="rounded-[2rem] border border-border bg-card/60 p-6 md:p-8">
               <p className="font-mono text-[10px] tracking-[0.28em] text-muted-foreground uppercase">Das Problem</p>
