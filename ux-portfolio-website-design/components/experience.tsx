@@ -11,47 +11,47 @@ const professionalExperience = [
   {
     role: 'UX Designer',
     company: 'Ergosign GmbH',
-    period: 'Sep 2024 – Heute',
-    description: 'Festanstellung im Bereich UX/UI Design.',
+    period: 'September 2024 – heute',
+    description: 'Festanstellung im UX/UI-Design.',
   },
   {
     role: 'UX Designer',
     company: 'Ergosign GmbH',
-    period: 'Sep 2023 – Aug 2024',
-    description: 'Praktikant / Werkstudent - Bachelorarbeit im UX Design.',
+    period: 'September 2023 – August 2024',
+    description: 'Praktikum und Werkstudententätigkeit; anschließend Bachelorarbeit im UX-Design.',
   },
   {
-    role: 'Marketing & Mechaniker',
+    role: 'Marketing & Mechanik',
     company: 'Dankward Bikes',
-    period: 'Apr 2021 – Aug 2023',
-    description: 'Studentische Aushilfe im Startup-Umfeld.',
+    period: 'April 2021 – August 2023',
+    description: 'Studentische Aushilfe in einem Startup.',
   },
   {
     role: 'Work and Travel',
     company: 'Australien & Frankreich',
-    period: 'Feb 2019 – Jul 2020',
+    period: 'Februar 2019 – Juli 2020',
     description: 'Interkulturelle Erfahrungen und persönliche Weiterentwicklung.',
   },
   {
     role: 'Veranstaltungstechniker',
     company: 'Hansa Park',
-    period: 'Aug 2017 – Jan 2019',
-    description: 'Vollzeit-Festanstellung.',
+    period: 'August 2017 – Januar 2019',
+    description: 'Festanstellung in Vollzeit.',
   },
   {
     role: 'Veranstaltungstechniker',
     company: 'Contzept GmbH',
-    period: 'Aug 2014 – Jun 2017',
+    period: 'August 2014 – Juni 2017',
     description: 'Berufsausbildung.',
   },
 ]
 
 const education = [
   {
-    role: 'Bachelor Medieningenieur',
+    role: 'Medieningenieurwesen (Bachelor)',
     company: 'FH Kiel',
-    period: 'Sep 2020 – Aug 2024',
-    description: 'Schwerpunkt UX/UI Design - Note: 1,7.',
+    period: 'September 2020 – August 2024',
+    description: 'Schwerpunkt: UX/UI-Design | Abschlussnote: 1,7.',
   },
   {
     role: 'Abitur',

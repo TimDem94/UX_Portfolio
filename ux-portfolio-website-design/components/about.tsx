@@ -5,7 +5,7 @@ const tools = ['Figma', 'FigJam', 'Miro', 'Blender', 'Adobe CC', 'Jira', 'Copilo
 const methods = [
   'User Interviews',
   'Wireframing',
-  'Hifi Prototyping with AI',
+  'High-Fidelity-Prototyping mit KI',
   'Usability Testing',
   'Journey Mapping',
   'Design Systems',
@@ -24,15 +24,15 @@ export function About() {
         </Reveal>
         <Reveal delay={120} className="space-y-5 text-lg leading-relaxed text-muted-foreground text-pretty md:col-span-6 md:col-start-7">
           <p>
-            Mit fünf Geschwistern aufzuwachsen prägt – echte{' '}
+            Das Aufwachsen mit fünf Geschwistern prägt mich: Echte{' '}
             <strong className="font-semibold text-foreground">Teamarbeit, Empathie und ein konstruktives Miteinander</strong>{' '}
             sind tief in meiner Persönlichkeit verankert. Diese natürliche Kollaboration bringe ich in jeden UX-Prozess ein und
-            erweitere das Team um einen modernen Partner.
+            ergänze das Team um eine moderne Perspektive.
           </p>
           <p>
-            KI ist für mich kein Buzzword, sondern tägliches Werkzeug. Ob als Sparringspartner bei der Ideengenerierung oder
-            zur Erstellung schneller Hi-Fi-Prototypen –{' '}
-            dadruch mache ich Visionen zügig greifbar, damit Nutzer und Stakeholder{' '}
+            KI ist für mich kein Buzzword, sondern ein tägliches Werkzeug. Ob bei der Ideengenerierung als Sparringspartner
+            oder bei der Erstellung schneller High-Fidelity-Prototypen: KI macht Visionen zügig greifbar, damit Nutzer:innen
+            und Stakeholder{' '}
             <strong className="font-semibold text-foreground">frühzeitig ein echtes Gefühl für das Endprodukt</strong> bekommen.
           </p>
         </Reveal>
