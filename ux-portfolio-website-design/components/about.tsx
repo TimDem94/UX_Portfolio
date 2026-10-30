@@ -32,11 +32,8 @@ export function About() {
           <p>
             KI ist für mich kein Buzzword, sondern tägliches Werkzeug. Ob als Sparringspartner bei der Ideengenerierung oder
             zur Erstellung schneller Hi-Fi-Prototypen –{' '}
-            <strong className="font-semibold text-foreground">
-              ich mache Visionen zügig greifbar, damit Nutzer und Stakeholder frühzeitig ein echtes Gefühl für das Endprodukt
-              bekommen
-            </strong>
-            .
+            dadruch mache ich Visionen zügig greifbar, damit Nutzer und Stakeholder{' '}
+            <strong className="font-semibold text-foreground">frühzeitig ein echtes Gefühl für das Endprodukt</strong> bekommen.
           </p>
         </Reveal>
       </div>
