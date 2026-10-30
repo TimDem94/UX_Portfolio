@@ -171,9 +171,32 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
               <p className="mt-5 max-w-3xl text-lg leading-relaxed text-foreground md:text-xl">{project.solution}</p>
             </article>
           </Reveal>
+
+          {project.relatedArticle && (
+            <Reveal delay={360}>
+              <aside className="rounded-[2rem] border border-border bg-card/60 p-6 md:p-8">
+                <p className="max-w-3xl text-lg leading-relaxed text-muted-foreground">
+                  Du möchtest noch mehr über das Projekt erfahren? In diesem Artikel, den ich mitverfasst habe, gibt es
+                  weitere Einblicke.
+                </p>
+                <a
+                  href={project.relatedArticle.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group mt-5 inline-flex items-center gap-2 text-sm font-medium text-foreground underline decoration-border underline-offset-4 transition-colors hover:decoration-foreground"
+                >
+                  {project.relatedArticle.title}
+                  <ArrowUpRight
+                    className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                    aria-hidden="true"
+                  />
+                </a>
+              </aside>
+            </Reveal>
+          )}
         </section>
 
-        <Reveal delay={360}>
+        <Reveal delay={420}>
           <div className="mt-16 flex justify-center">
             <Link
               href="/"

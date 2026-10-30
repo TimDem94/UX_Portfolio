@@ -31,7 +31,7 @@ export function ContactVideo() {
   return (
     <video
       ref={videoRef}
-      className="mx-auto block h-auto w-full max-w-[220px] invert dark:invert-0 lg:translate-y-8 lg:justify-self-end"
+      className="mx-auto block h-auto w-full max-w-[220px] [mask-image:radial-gradient(ellipse_at_center,#000_82%,transparent_100%)] invert dark:invert-0 lg:translate-y-8 lg:justify-self-end"
       muted
       playsInline
       preload="none"

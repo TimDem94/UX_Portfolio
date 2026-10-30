@@ -1,6 +1,6 @@
 import { Reveal } from '@/components/reveal'
 
-const tools = ['Figma', 'FigJam', 'Miro', 'Blender', 'Adobe CC', 'Jira']
+const tools = ['Figma', 'FigJam', 'Miro', 'Blender', 'Adobe CC', 'Jira', 'Copilot',]
 
 const methods = [
   'User Interviews',
@@ -8,7 +8,6 @@ const methods = [
   'Hifi Prototyping with AI',
   'Usability Testing',
   'Journey Mapping',
-  'A/B Testing',
   'Design Systems',
   'Accessibility (WCAG)',
 ]
@@ -18,16 +17,16 @@ export function About() {
     <section id="about" className="mx-auto max-w-6xl scroll-mt-16 px-6 py-24 md:px-10 md:py-32">
       <div className="grid gap-12 md:grid-cols-12">
         <Reveal className="md:col-span-5">
-          <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Was mich hervorhebt</p>
+          <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Meine Arbeitsweise</p>
           <h2 className="mt-4 text-4xl font-medium tracking-tight text-balance md:text-5xl">
-            Design im Dialog mit dem Mensch und Maschine.
+            Design im Dialog mit Mensch und Maschine.
           </h2>
         </Reveal>
         <Reveal delay={120} className="md:col-span-6 md:col-start-7">
           <p className="text-lg leading-relaxed text-muted-foreground text-pretty">
             Mit fünf Geschwistern aufzuwachsen prägt – echte Teamarbeit, Empathie und ein konstruktives Miteinander sind
-            tief in meiner DNA verankert. Diese natürliche Kollaboration bringe ich in jeden UX-Prozess ein und erweitere
-            das Team um einen modernen Partner: Künstliche Intelligenz. KI ist für mich kein Buzzword, sondern tägliches
+            tief in meiner Persönlichkeit verankert. Diese natürliche Kollaboration bringe ich in jeden UX-Prozess ein und erweitere
+            das Team um einen modernen Partner. KI ist für mich kein Buzzword, sondern tägliches
             Werkzeug. Ob als Sparringspartner bei der Ideengenerierung oder zur Erstellung schneller Hi-Fi-Prototypen –
             ich mache Visionen zügig greifbar, damit Nutzer und Stakeholder frühzeitig ein echtes Gefühl für das
             Endprodukt bekommen.

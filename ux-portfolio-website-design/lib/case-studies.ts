@@ -14,6 +14,10 @@ export type CaseStudy = {
   problem: string
   process: string
   solution: string
+  relatedArticle?: {
+    url: string
+    title: string
+  }
   visuals?: {
     image: string
     alt: string
@@ -42,6 +46,10 @@ export const projects: CaseStudy[] = [
       'Um mentale Modelle und Risikobereiche im autonomen Fahrzeugkontext zu verstehen, habe ich Nutzerforschung eng mit den Perspektiven von Stakeholdern und dem Produktteam verzahnt. Aus diesen Erkenntnissen heraus entstanden direkt High-Fidelity-Prototypen, die darauf ausgelegt waren, mit minimalem Aufwand ein hochgradig immersives Fahrgefühl zu simulieren. Das Herzstück der Validierung: In insgesamt vier Studien mit über 120 Proband:innen habe ich diese erlebnisnahen Interface-Konzepte unter realistischen Bedingungen getestet, iterativ geschärft und erfolgreich validiert.',
     solution:
       'Das Ergebnis war ein modularer Informationsaufbau mit klaren Prioritäten, fokussierten Zustandsanzeigen und einer konsequenten visuelle Hierarchie. So konnte das System komplexe Fahrinhalte verständlich, schnell erfassbar und für den Fahrer vertrauenswürdig vermitteln.',
+    relatedArticle: {
+      url: 'https://www.ergosign.de/insights/blog/stadt-up-abschluss',
+      title: 'STADT:up: Einblicke in das Projekt',
+    },
   },
   {
     slug: 'digitale-werkzeuge-luftfahrt',
