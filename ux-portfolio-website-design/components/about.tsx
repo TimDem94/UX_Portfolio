@@ -17,7 +17,7 @@ export function About() {
     <section id="about" className="mx-auto max-w-6xl scroll-mt-16 px-6 py-24 md:px-10 md:py-32">
       <div className="grid gap-12 md:grid-cols-12">
         <Reveal className="md:col-span-5">
-          <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Meine Arbeitsweise</p>
+          <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Meine Skills</p>
           <h2 className="mt-4 text-4xl font-medium tracking-tight text-balance md:text-5xl">
             Design im Dialog mit Mensch und Maschine.
           </h2>

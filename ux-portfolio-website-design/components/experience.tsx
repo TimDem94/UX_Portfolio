@@ -51,7 +51,7 @@ const education = [
     role: 'Bachelor Medieningenieur',
     company: 'FH Kiel',
     period: 'Sep 2020 – Aug 2024',
-    description: 'Schwerpunkt UX/UI Design.',
+    description: 'Schwerpunkt UX/UI Design - Note: 1,7.',
   },
   {
     role: 'Abitur',
