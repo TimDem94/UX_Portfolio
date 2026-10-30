@@ -1,7 +1,6 @@
-import Image from 'next/image'
 import { ArrowDown } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
-import { withBasePath } from '@/lib/site-path'
+import { HeroPortrait } from '@/components/hero-portrait'
 
 export function Hero() {
   return (
@@ -48,15 +47,7 @@ export function Hero() {
           className="absolute inset-x-4 bottom-4 top-12 rounded-[48%] bg-gradient-to-br from-primary/10 via-muted/50 to-transparent blur-2xl"
           aria-hidden="true"
         />
-        <Image
-          src={withBasePath('/projects/Tim_headshot.png')}
-          alt="Tim Demesmaeker"
-          width={1792}
-          height={2400}
-          priority
-          sizes="(min-width: 1024px) 40vw, 80vw"
-          className="hero-portrait relative h-full w-auto max-w-full object-contain object-bottom"
-        />
+        <HeroPortrait />
       </Reveal>
     </section>
   )
