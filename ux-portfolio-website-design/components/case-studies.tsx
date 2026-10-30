@@ -10,8 +10,8 @@ export function CaseStudies() {
     <section id="work" className="mx-auto max-w-6xl scroll-mt-16 px-6 py-24 md:px-10 md:py-32">
       <Reveal className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Ausgewählte Arbeiten</p>
-          <h2 className="mt-4 text-4xl font-medium tracking-tight md:text-5xl">Case Studies</h2>
+          <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground uppercase">Case Studies</p>
+          <h2 className="mt-4 text-4xl font-medium tracking-tight md:text-5xl">Ausgewählte Projekte</h2>
         </div>
         <p className="max-w-sm text-muted-foreground leading-relaxed">
           Projekte, in denen Research, Strategie und Gestaltung zusammenfinden.
