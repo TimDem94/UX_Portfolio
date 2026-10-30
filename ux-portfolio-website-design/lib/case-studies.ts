@@ -60,7 +60,7 @@ export const projects: CaseStudy[] = [
     period: '2024–heute',
     image: '/projects/aviation-operations-overview.svg',
     role: 'UX/UI Designer',
-    duration: 'Seit 2024',
+    duration: 'Seit 2024 (ongoing)',
     tools: ['Figma', 'Workshops', 'Scrum'],
     summary:
       'Ein langfristiges, abteilungsübergreifendes Engagement für ein großes Luftfahrt-Wartungsunternehmen in Hamburg. Aus Gründen der Vertraulichkeit sind Namen, konkrete Oberflächen und interne Abläufe abstrahiert.',
@@ -69,7 +69,7 @@ export const projects: CaseStudy[] = [
     process:
       'Seit 2024 durchlaufe ich verschiedene Abteilungen, mache Anforderungen und Arbeitsabläufe in Gesprächen und Workshops greifbar und übersetze sie in verständliche, testbare Interaktionskonzepte. Prototypen entstehen dabei nicht mehr nur in Figma: Mithilfe von KI erstelle ich schnell klickbare Prototypen, die ich in weiteren Nutzerinterviews früh erprobe. So führen konkrete Abläufe zu tieferen Insights und bilden die Grundlage für die nächste Iteration. Die Entwürfe begleite ich agil in Scrum-Sprints gemeinsam mit den Entwickler:innen des Unternehmens – vom ersten Flow bis zur umsetzbaren Oberfläche.',
     solution:
-      'Statt einer Einheitslösung entstehen auf den jeweiligen Arbeitskontext zugeschnittene in einander verzahnte Anwendungen: strukturierte digitale Abläufe für kaufmännische Teams und eine Tablet-orientierte Oberfläche für den Einsatz in der Mechanik. Die hier gezeigten Visualisierungen sind eigens erstellte, illustrative Darstellungen – keine Originalscreenshots oder vertraulichen Projektdaten.',
+      'Statt einer Einheitslösung entstehen auf den jeweiligen Arbeitskontext zugeschnittene und in einander verzahnte Anwendungen: strukturierte digitale Abläufe für kaufmännische Teams und eine Tablet-orientierte Oberflächen für den Einsatz von Mechaniker:innen.',
     visuals: [
       {
         image: '/projects/aviation-workshop.svg',
