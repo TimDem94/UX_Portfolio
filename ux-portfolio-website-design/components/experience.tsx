@@ -15,10 +15,10 @@ const professionalExperience = [
     description: 'Festanstellung im Bereich UX/UI Design.',
   },
   {
-    role: 'Praktikant / Werkstudent',
+    role: 'UX Designer',
     company: 'Ergosign GmbH',
     period: 'Sep 2023 – Aug 2024',
-    description: 'Bachelorarbeit im UX Design.',
+    description: 'Praktikant / Werkstudent - Bachelorarbeit im UX Design.',
   },
   {
     role: 'Marketing & Mechaniker',
